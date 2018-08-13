@@ -1,0 +1,12 @@
+<?php
+#!/usr/bin/env php
+
+define("FCPATH", __DIR__ . "/");
+define("APPPATH", FCPATH . "app/");
+define("COREPATH", FCPATH . "core/");
+define("HTTP_SERVER", 0);
+define("TCP_SERVER", 1);
+define("UDP_SERVER", 2);
+define("WEB_SOCKET_SERVER", 3);
+
+require "core/NewSwoole.php";
